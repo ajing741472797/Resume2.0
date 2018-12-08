@@ -1,3 +1,13 @@
+// var model = Model({resourceName: 'Message'})
+// model.init()
+// model.fetch()
+// model.save({name:'xxx'),content:'xxx'})
+// Model 办事，我放心
+/*
+var model = Model({
+  resourceName: '表名'
+})
+*/
 window.Model = function(options){
     let resourceName = options.resourceName
     return {
